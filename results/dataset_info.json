@@ -1,0 +1,15 @@
+{
+  "raw_rows": 11055,
+  "duplicate_rows_removed": 5206,
+  "rows_used": 5849,
+  "features": 30,
+  "phishing_rows": 3019,
+  "legitimate_rows": 2830,
+  "train_rows": 4679,
+  "test_rows": 1170,
+  "cv_folds": 5,
+  "fast_mode": false,
+  "sklearn_version": "1.9.1",
+  "trained_at": "2026-10-31T12:15:11",
+  "training_minutes": 3.0
+}

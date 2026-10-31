@@ -1,0 +1,20 @@
+{
+  "selected_model": "XGBoost",
+  "feature_condition": "Original 30",
+  "tuned": false,
+  "selection_metric": "5-fold CV accuracy on training data",
+  "test_accuracy": 0.9521367521367521,
+  "test_precision_weighted": 0.9521472778121963,
+  "test_recall_weighted": 0.9521367521367521,
+  "test_f1_weighted": 0.952130870479301,
+  "test_roc_auc": 0.9932663281304845,
+  "test_precision_phish": 0.9506578947368421,
+  "test_recall_phish": 0.956953642384106,
+  "test_f1_phish": 0.9537953795379538,
+  "phish_caught": 578,
+  "phish_missed": 30,
+  "legit_blocked": 26,
+  "legit_passed": 536,
+  "test_rows": 1170,
+  "duplicate_rows_removed_before_split": 5206
+}

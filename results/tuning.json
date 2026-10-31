@@ -1,0 +1,8 @@
+{
+  "model": "XGBoost",
+  "condition": "Original 30",
+  "default_cv_accuracy": 0.9499897161661867,
+  "tuned": false,
+  "best_params": {},
+  "tuned_inner_cv_accuracy": 0.948279907676957
+}

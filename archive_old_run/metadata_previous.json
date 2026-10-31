@@ -1,0 +1,51 @@
+{
+  "model": "XGBoost",
+  "condition": "Original 30",
+  "feature_names": [
+    "having_ip_address",
+    "url_length",
+    "shortining_service",
+    "having_at_symbol",
+    "double_slash_redirecting",
+    "prefix_suffix",
+    "having_sub_domain",
+    "sslfinal_state",
+    "domain_registration_length",
+    "favicon",
+    "port",
+    "https_token",
+    "request_url",
+    "url_of_anchor",
+    "links_in_tags",
+    "sfh",
+    "submitting_to_email",
+    "abnormal_url",
+    "redirect",
+    "on_mouseover",
+    "rightclick",
+    "popupwindow",
+    "iframe",
+    "age_of_domain",
+    "dnsrecord",
+    "web_traffic",
+    "page_rank",
+    "google_index",
+    "links_pointing_to_page",
+    "statistical_report"
+  ],
+  "classes_encoded": [
+    0,
+    1
+  ],
+  "original_classes": [
+    "-1",
+    "1"
+  ],
+  "class_labels": {
+    "0": "Phishing website",
+    "1": "Legitimate website"
+  },
+  "positive_class_index": 1,
+  "target_name": "Result",
+  "selection_metric": "5-fold training CV accuracy"
+}
